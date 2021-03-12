@@ -133,6 +133,9 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onSubmitButton:" destination="UcN-Ua-ixE" eventType="touchUpInside" id="PjG-8G-lQc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IWq-kx-j08"/>
@@ -141,7 +144,6 @@
                     <connections>
                         <outlet property="commentField" destination="st8-xr-WkW" id="cmX-Xl-046"/>
                         <outlet property="imageView" destination="nuF-og-YdJ" id="RQf-hS-4dk"/>
-                        <outlet property="onSubmitButton" destination="uFU-9W-fIV" id="IUb-Mf-waH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TvP-Rf-ic6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
