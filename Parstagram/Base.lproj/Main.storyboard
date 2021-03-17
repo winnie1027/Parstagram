@@ -85,7 +85,6 @@
         <!--Feed View Controller-->
         <scene sceneID="U9s-kE-leb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BNT-fx-4hN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="xK4-nP-RAD" customClass="FeedViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w1J-5N-Wgj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -158,6 +157,7 @@
                         <outlet property="tableView" destination="S4X-xj-rUY" id="TlB-xo-3M7"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BNT-fx-4hN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1753.6231884057972" y="93.75"/>
         </scene>
@@ -214,7 +214,7 @@
         <!--Navigation Controller-->
         <scene sceneID="CaH-J8-Wfo">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jl5-cQ-9sN" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="jl5-cQ-9sN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="m5z-ta-Nuf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
